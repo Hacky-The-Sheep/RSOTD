@@ -1,7 +1,10 @@
 # Saint of the Day (Blazingly Fast)
 
+Still a work in progress. If you are on NIXOS, simply run:
 
-Still a work in progress
+```bash
+nix-shell
+```
 
 ## TODO?
 
