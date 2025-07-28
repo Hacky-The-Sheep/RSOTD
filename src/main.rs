@@ -1,7 +1,7 @@
 mod saints;
 
 use chrono::Local;
-use colored::*;
+// use colored::*;
 
 fn main() {
     // Get the date and time
@@ -14,8 +14,8 @@ fn main() {
     if let Some(month) = months.get(&parsed_month) {
         if let Some(saint) = month.get(&parsed_date) {
             println!("\nSaint of the Day:\n{}", saint);
-            let outside = "Martyr".truecolor(243, 139, 168).bold().italic();
-            println!("{}", outside);
+            // let outside = "Martyr".truecolor(243, 139, 168).bold().italic();
+            // println!("{}", outside);
         } else {
             println!("\nNo saint of the day. Go pray your rosary 󰕹 ");
         }
