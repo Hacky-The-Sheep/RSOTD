@@ -1,7 +1,8 @@
 mod saints;
 
 use chrono::Local;
-// use colored::*;
+use colored::*;
+// let outside = "Martyr".truecolor(243, 139, 168).bold().italic();
 
 fn main() {
     // Get the date and time
@@ -10,14 +11,26 @@ fn main() {
     let parsed_date = current_date.format("%d").to_string();
 
     let months = saints::months();
+    let mini_rosary: String = r#"
+          _
+         | |
+         |_|
+          |
+        --+--
+          |
+          |
+    "#
+    .truecolor(116, 199, 236)
+    .to_string();
 
     if let Some(month) = months.get(&parsed_month) {
         if let Some(saint) = month.get(&parsed_date) {
             println!("\nSaint of the Day:\n{}", saint);
-            // let outside = "Martyr".truecolor(243, 139, 168).bold().italic();
-            // println!("{}", outside);
         } else {
-            println!("\nNo saint of the day. Go pray your rosary 󰕹 ");
+            println!(
+                "\nNo saint of the day. Go pray your rosary 󰕹 {}",
+                mini_rosary
+            );
         }
     }
 }
