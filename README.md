@@ -5,13 +5,12 @@ Saint of the Day
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+  <img src="assets/rsotd.gif", width="400" alt="example"/><br/>
 </p>
 
 <p align="center">
   RSOTD, or Rust Saint of the Day, is a very simple program that
   shows the currrent saint of the day in your terminal.
-
-  <img src="assets/rsotd.gif", width="400" alt="example"/><br/>
 
   The saints are based off the traditional calendar, so keep that in mind.
 
