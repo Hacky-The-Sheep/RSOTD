@@ -2,7 +2,6 @@ mod saints;
 
 use chrono::Local;
 use colored::*;
-// let outside = "Martyr".truecolor(243, 139, 168).bold().italic();
 
 fn main() {
     // Get the date and time

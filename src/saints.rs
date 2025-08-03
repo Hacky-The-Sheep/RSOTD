@@ -8,26 +8,26 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
     // JANUARY
     let january: HashMap<String, String> = HashMap::from([
         (
-            "2".to_string(),
+            "02".to_string(),
             "St. Basil \nSt. Gregory Nazianzen \nSt. Marcarius".to_string(),
         ),
-        ("3".to_string(), "St. Genevieve".to_string()),
+        ("03".to_string(), "St. Genevieve".to_string()),
         (
-            "4".to_string(),
+            "04".to_string(),
             "St. Dafrosa \nSt. Elizabeth Seton".to_string(),
         ),
         (
-            "5".to_string(),
+            "05".to_string(),
             "St. John Neumann \nSt. Telesphorus".to_string(),
         ),
         (
-            "6".to_string(),
+            "06".to_string(),
             "Sts. Gaspar, Melchior and Balthasar \nBlessed Andre Bessette".to_string(),
         ),
-        ("7".to_string(), "St. Lucian".to_string()),
-        ("8".to_string(), "St. Appolinaris".to_string()),
+        ("07".to_string(), "St. Lucian".to_string()),
+        ("08".to_string(), "St. Appolinaris".to_string()),
         (
-            "9".to_string(),
+            "09".to_string(),
             "St. Julian of Antioch \nSt. Peter of Sebaste".to_string(),
         ),
         ("10".to_string(), "St. Nicanor \nSt. William".to_string()),
@@ -99,15 +99,15 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // FEBRUARY
     let february: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "St. Brigid of Ireland \nSt. Ignatius of Antioch".to_string()),
-        ("2".to_string(), "St. Cornelius the Centurian".to_string()),
-        ("3".to_string(), "St. Blaise".to_string()),
-        ("4".to_string(), "St. Andrew Corsini".to_string()),
-        ("5".to_string(), "The 26 Martyrs of Japan \nSt. Apollonia \nSt. Agatha".to_string()),
-        ("6".to_string(), "St. Dorothy \nSt. Titus".to_string()),
-        ("7".to_string(), "Bl. Pope Pius IX \nSt. Romauld, Abbot".to_string()),
-        ("8".to_string(), "St. Josephine Bakhita \nSt. John of Matha".to_string()),
-        ("9".to_string(), "St. Cyril of Alexandria \nSt. Miguel Cordero".to_string()),
+        ("01".to_string(), "St. Brigid of Ireland \nSt. Ignatius of Antioch".to_string()),
+        ("02".to_string(), "St. Cornelius the Centurian".to_string()),
+        ("03".to_string(), "St. Blaise".to_string()),
+        ("04".to_string(), "St. Andrew Corsini".to_string()),
+        ("05".to_string(), "The 26 Martyrs of Japan \nSt. Apollonia \nSt. Agatha".to_string()),
+        ("06".to_string(), "St. Dorothy \nSt. Titus".to_string()),
+        ("07".to_string(), "Bl. Pope Pius IX \nSt. Romauld, Abbot".to_string()),
+        ("08".to_string(), "St. Josephine Bakhita \nSt. John of Matha".to_string()),
+        ("09".to_string(), "St. Cyril of Alexandria \nSt. Miguel Cordero".to_string()),
         ("10".to_string(), "St. Scholastica".to_string()),
         ("12".to_string(), "Seven Holy Founders of the Servites".to_string()),
         ("13".to_string(), "St. Agabus \nSt. Catherine d'Ricci \nSt. Polyeucte".to_string()),
@@ -132,25 +132,25 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // JUNE
     let june: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "St. Angela Merici".to_string()),
+        ("01".to_string(), "St. Angela Merici".to_string()),
         (
-            "2".to_string(),
+            "02".to_string(),
             "Sts. Peter, Erasmus, and Marcellinus, Martyrs".to_string(),
         ),
         (
-            "3".to_string(),
+            "03".to_string(),
             "St. Kevin \nSt. Clothilde, Queen".to_string(),
         ),
-        ("4".to_string(), "St. Francis Caracciolo".to_string()),
-        ("5".to_string(), "St. Boniface, Martyr".to_string()),
+        ("04".to_string(), "St. Francis Caracciolo".to_string()),
+        ("05".to_string(), "St. Boniface, Martyr".to_string()),
         (
-            "6".to_string(),
+            "06".to_string(),
             "St. Norbert \nSt. Philip, Deacon".to_string(),
         ),
-        ("7".to_string(), "St. Robert of Newminster".to_string()),
-        ("8".to_string(), "Sts. Medard and Gildard".to_string()),
+        ("07".to_string(), "St. Robert of Newminster".to_string()),
+        ("08".to_string(), "Sts. Medard and Gildard".to_string()),
         (
-            "9".to_string(),
+            "09".to_string(),
             "St. Columkille \nSts. Primus and Felician, Martyrs".to_string(),
         ),
         ("10".to_string(), "St. Margaret of Scotland".to_string()),
@@ -244,49 +244,133 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // AUGUST
     let august: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "The Chains of St. Peter \nSt. Samona and Her Seven Sons [Holy Machabees]".to_string()),
-        ("2".to_string(), "St. Alphonsus Liguori \nPope St. Stephen I, Martyr".to_string()),
-        ("3".to_string(), "The Finding of the Body of St. Stephen, First Martyr \nSt. Lydia \nSt. Peter Julian Eymard".to_string()),
-        ("4".to_string(), "St. Dominic".to_string()),
-        ("6".to_string(), "Sts. Xystus, Felicissimus, Agapitus".to_string()),
-        ("7".to_string(), "St. Cajetan \nSt. Donatus, Martyr".to_string()),
-        ("8".to_string(), "Sts. Cyriacus, Largus and Smaragdus".to_string()),
-        ("9".to_string(), "St. John Marie Vianney \nSt. Romanus, Martyr \nVigil of St. Lawrence, Martyr".to_string()),
-        ("10".to_string(), "St. Lawrence, Martyr".to_string()),
-        ("11".to_string(), "Sts. Tiburtius and Susanna \nSt. Philomena".to_string()),
+        (
+            "01".to_string(),
+            "The Chains of St. Peter \nSt. Samona and Her Seven Sons [Holy Machabees]".to_string(),
+        ),
+        (
+            "02".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Alphonsus Liguori",
+                "Pope St. Stephen I, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
+        (
+            "03".to_string(),
+            format!(
+                "{}\n{}\n{}",
+                "The Finding of the Body of St. Stephen, First Martyr".truecolor(243, 139, 168),
+                "St. Lydia",
+                "St. Peter Julian Eymard"
+            ),
+        ),
+        ("04".to_string(), "St. Dominic".to_string()),
+        (
+            "06".to_string(),
+            "Sts. Xystus, Felicissimus, Agapitus".to_string(),
+        ),
+        (
+            "07".to_string(),
+            format!(
+                "{}",
+                "St. Cajetan \nSt. Donatus, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
+        (
+            "08".to_string(),
+            "Sts. Cyriacus, Largus and Smaragdus".to_string(),
+        ),
+        (
+            "09".to_string(),
+            format!(
+                "{}\n{}\n{}",
+                "St. John Marie Vianney",
+                "St. Romanus, Martyr",
+                "Vigil of St. Lawrence, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
+        (
+            "10".to_string(),
+            format!("{}", "St. Lawrence, Martyr".truecolor(243, 139, 168)),
+        ),
+        (
+            "11".to_string(),
+            "Sts. Tiburtius and Susanna \nSt. Philomena".to_string(),
+        ),
         ("12".to_string(), "St. Clare".to_string()),
-        ("13".to_string(), "St. John Berchmans  \nSts. Hippolytus and Cassian".to_string()),
-        ("14".to_string(), "St. Eusebius \nSt. Maxmillian Kolbe".to_string()),
+        (
+            "13".to_string(),
+            "St. John Berchmans  \nSts. Hippolytus and Cassian".to_string(),
+        ),
+        (
+            "14".to_string(),
+            "St. Eusebius \nSt. Maxmillian Kolbe".to_string(),
+        ),
         ("15".to_string(), "St.Tarsicius".to_string()),
         ("16".to_string(), "St. Rocco \nSt. Joachim".to_string()),
         ("17".to_string(), "St. Hyacinth".to_string()),
-        ("18".to_string(), "St. Helena \nSt. Agapitus, Martyr".to_string()),
+        (
+            "18".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Helena",
+                "St. Agapitus, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
         ("19".to_string(), "St. John Eudes".to_string()),
         ("20".to_string(), "St. Bernard".to_string()),
         ("21".to_string(), "St. Jane Frances de Chantal".to_string()),
-        ("22".to_string(), "Sts. Timothy, Hippollytus, Symphorian".to_string()),
-        ("23".to_string(), "St. Philip Benizi \nVigil of St. Bartholomew, Apostle".to_string()),
+        (
+            "22".to_string(),
+            "Sts. Timothy, Hippollytus, Symphorian".to_string(),
+        ),
+        (
+            "23".to_string(),
+            "St. Philip Benizi \nVigil of St. Bartholomew, Apostle".to_string(),
+        ),
         ("24".to_string(), "St. Bartholomew, Apostle".to_string()),
         ("25".to_string(), "St. Louis, King of France".to_string()),
         ("26".to_string(), "Pope St. Zephyrinus, Martyr".to_string()),
         ("27".to_string(), "St. Joseph Calasanctius".to_string()),
-        ("28".to_string(), "St. Augustine \nSt. Hermes, Martyr".to_string()),
-        ("29".to_string(), "Beheading of St. John the Baptist \nSt. Sabina, Martyr".to_string()),
-        ("30".to_string(), "St. Rose of Lima \nSts. Felix and Adauctus, Martyrs".to_string()),
+        (
+            "28".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Augustine",
+                "St. Hermes, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
+        (
+            "29".to_string(),
+            format!(
+                "{}\n{}",
+                "Beheading of St. John the Baptist",
+                "St. Sabina, Martyr".truecolor(243, 139, 168)
+            ),
+        ),
+        (
+            "30".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Rose of Lima",
+                "Sts. Felix and Adauctus, Martyrs".truecolor(243, 139, 168)
+            ),
+        ),
         ("31".to_string(), "St. Raymond Nonnatus".to_string()),
     ]);
     months.insert("august".to_string(), august);
 
     // September
     let september: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "St. Aegidius \nSt. Anna, Prophetess \nSt. Giles, Abbot \nThe Holy Twelve Brothers, Martyrs.".to_string()),
-        ("2".to_string(), "St. Stephen, King of Hungar".to_string()),
-        ("3".to_string(), "Pope St. Pius ".to_string()),
-        ("4".to_string(), "St. Rose of Viterbo \nSt. Rosalia".to_string()),
-        ("5".to_string(), "St. Lawrence Justinian".to_string()),
-        ("6".to_string(), "St. Eleutherius".to_string()),
-        ("7".to_string(), "St. Cloud \nSt. Regina".to_string()),
-        ("9".to_string(), "St. Peter Claver \nSt. Gorgonius, Martyr".to_string()),
+        ("01".to_string(), "St. Aegidius \nSt. Anna, Prophetess \nSt. Giles, Abbot \nThe Holy Twelve Brothers, Martyrs.".to_string()),
+        ("02".to_string(), "St. Stephen, King of Hungar".to_string()),
+        ("03".to_string(), "Pope St. Pius ".to_string()),
+        ("04".to_string(), "St. Rose of Viterbo \nSt. Rosalia".to_string()),
+        ("05".to_string(), "St. Lawrence Justinian".to_string()),
+        ("06".to_string(), "St. Eleutherius".to_string()),
+        ("07".to_string(), "St. Cloud \nSt. Regina".to_string()),
+        ("09".to_string(), "St. Peter Claver \nSt. Gorgonius, Martyr".to_string()),
         ("10".to_string(), "St. Pulcheria \nSt. Nicholas of Tolentino".to_string()),
         ("11".to_string(), "St. Paphnutius \nSt. John Gabriel Perboyre \nSts. Protus and Hyacinth, Martyrs".to_string()),
         ("13".to_string(), "St. Eulogius".to_string()),
@@ -310,15 +394,15 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // October
     let october: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "St. Remegius".to_string()),
-        ("2".to_string(), "Holy Guardian Angels ".to_string()),
-        ("3".to_string(), "St. Therese of Lisieux".to_string()),
-        ("4".to_string(), "St. Francis of Assisi".to_string()),
-        ("5".to_string(), "St. Placidus and Companions, Martyrs \nSt. Faustina Kowalska \nBl. Raymond of Capua".to_string()),
-        ("6".to_string(), "St. Bruno".to_string()),
-        ("7".to_string(), "Pope St. Mark \nSts. Sergius, Bacchus,Marcellus, and Apuleius, Martyrs".to_string()),
-        ("8".to_string(), "St. Bridget of Sweden".to_string()),
-        ("9".to_string(), "St. Denis [Dionysius], Rusticus, and Eleutherius, Martyrs \nSt. John Lenard".to_string()),
+        ("01".to_string(), "St. Remegius".to_string()),
+        ("02".to_string(), "Holy Guardian Angels ".to_string()),
+        ("03".to_string(), "St. Therese of Lisieux".to_string()),
+        ("04".to_string(), "St. Francis of Assisi".to_string()),
+        ("05".to_string(), "St. Placidus and Companions, Martyrs \nSt. Faustina Kowalska \nBl. Raymond of Capua".to_string()),
+        ("06".to_string(), "St. Bruno".to_string()),
+        ("07".to_string(), "Pope St. Mark \nSts. Sergius, Bacchus,Marcellus, and Apuleius, Martyrs".to_string()),
+        ("08".to_string(), "St. Bridget of Sweden".to_string()),
+        ("09".to_string(), "St. Denis [Dionysius], Rusticus, and Eleutherius, Martyrs \nSt. John Lenard".to_string()),
         ("10".to_string(), "St. Francis Borgia".to_string()),
         ("13".to_string(), "St. Edward King and Confessor \nSt. Gerald".to_string()),
         ("14".to_string(), "Pope St. Callistus, Martyr".to_string()),
@@ -344,27 +428,27 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // November
     let november: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "All Saints ".to_string()),
-        ("2".to_string(), "Holy Souls in Purgatory ".to_string()),
+        ("01".to_string(), "All Saints ".to_string()),
+        ("02".to_string(), "Holy Souls in Purgatory ".to_string()),
         (
-            "3".to_string(),
+            "03".to_string(),
             "St. Malachy \nSt. Martin de Porres".to_string(),
         ),
         (
-            "4".to_string(),
+            "04".to_string(),
             "St. Charles Borromeo \nSts. Vitalis and Agricola, Martyrs".to_string(),
         ),
-        ("5".to_string(), "Sts. Zachary and Elizabeth".to_string()),
+        ("05".to_string(), "Sts. Zachary and Elizabeth".to_string()),
         (
-            "6".to_string(),
+            "06".to_string(),
             "St. Leonard of Limoges \nSt. Leonard Reresby".to_string(),
         ),
-        ("7".to_string(), "St. Willibrord \nSt. Ernest".to_string()),
+        ("07".to_string(), "St. Willibrord \nSt. Ernest".to_string()),
         (
-            "8".to_string(),
+            "08".to_string(),
             "St. Geoffrey \nBl. Duns Scotus \nFour Crowned Martyrs".to_string(),
         ),
-        ("9".to_string(), "St. Theodore, Martyr".to_string()),
+        ("09".to_string(), "St. Theodore, Martyr".to_string()),
         (
             "10".to_string(),
             "St. Andrew Avellino \nSts. Tryphon, Respicius, and Nympha, Martyrs".to_string(),
@@ -434,17 +518,20 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
 
     // December
     let december: HashMap<String, String> = HashMap::from([
-        ("1".to_string(), "St. Edward Campion, Martyr".to_string()),
-        ("2".to_string(), "St. Bibiana [Vivian], Martyr".to_string()),
-        ("3".to_string(), "St. Francis Xavier".to_string()),
+        ("01".to_string(), "St. Edward Campion, Martyr".to_string()),
+        ("02".to_string(), "St. Bibiana [Vivian], Martyr".to_string()),
+        ("03".to_string(), "St. Francis Xavier".to_string()),
         (
-            "4".to_string(),
+            "04".to_string(),
             "St. Barbara, Martyr \nSt. Peter Chrysologus".to_string(),
         ),
-        ("5".to_string(), "St. Sabbas, Abbot".to_string()),
-        ("6".to_string(), "St. Nicholas of Bari".to_string()),
-        ("7".to_string(), "St. Ambrose".to_string()),
-        ("9".to_string(), "St. Juan Diego \nSt. Leocadia".to_string()),
+        ("05".to_string(), "St. Sabbas, Abbot".to_string()),
+        ("06".to_string(), "St. Nicholas of Bari".to_string()),
+        ("07".to_string(), "St. Ambrose".to_string()),
+        (
+            "09".to_string(),
+            "St. Juan Diego \nSt. Leocadia".to_string(),
+        ),
         ("10".to_string(), "Pope St. Melchiades, Martyr".to_string()),
         ("11".to_string(), "Pope St. Damasus".to_string()),
         ("13".to_string(), "St. Lucy, Martyr".to_string()),
