@@ -11,6 +11,8 @@ Saint of the Day
   RSOTD, or Rust Saint of the Day, is a very simple program that
   shows the currrent saint of the day in your terminal.
 
+  <img src="assets/rsotd.gif", width="400" alt="example"/><br/>
+
   The saints are based off the traditional calendar, so keep that in mind.
 
   A few things to note about the colors:
