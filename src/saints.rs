@@ -104,7 +104,7 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
         ("04".to_string(), "St. Andrew Corsini".to_string()),
         ("05".to_string(), "The 26 Martyrs of Japan \nSt. Apollonia \nSt. Agatha".to_string()),
         ("06".to_string(), "St. Dorothy \nSt. Titus".to_string()),
-        ("07".to_string(), "Bl. Pope Pius IX \nSt. Romauld, Abbot".to_string()),
+        ("07".to_string(), "Bl. Pope Pius IX \nSt. Romauld Abbot".to_string()),
         ("08".to_string(), "St. Josephine Bakhita \nSt. John of Matha".to_string()),
         ("09".to_string(), "St. Cyril of Alexandria \nSt. Miguel Cordero".to_string()),
         ("10".to_string(), "St. Scholastica".to_string()),
