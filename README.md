@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="assets/aquinas.png", width="100" alt="Logo"/><br/>
+<img src="assets/aquinas.png", width="300" alt="Logo"/><br/>
 Saint of the Day
 </h1>
 
