@@ -24,7 +24,7 @@ fn main() {
 
     if let Some(month) = months.get(&parsed_month) {
         if let Some(saint) = month.get(&parsed_date) {
-            println!("\nSaint of the Day:\n{}", saint);
+            println!("\nSaint(s) of the Day:\n{}", saint);
         } else {
             println!(
                 "\nNo saint of the day. Go pray your rosary 󰕹 {}",
