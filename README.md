@@ -22,11 +22,7 @@ Saint of the Day
  </table>
 </p>
 
-```bash
-nix-shell
-```
 
-## TODO?
-
-- [ ] Add Color to titles like martyr and other
-
+<h6 align="center">
+All credit for colors and the color images to <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a>
+</h6>
