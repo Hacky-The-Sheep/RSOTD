@@ -60,37 +60,68 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
             format!(
                 "{}\n{}",
                 "Sts. Marius, Martha and Sons, Martyrs".truecolor(243, 139, 168),
-                "\nSt. Canute, King and Martyr".to_string()
+                "\nSt. Canute, King and Martyr".truecolor(243, 139, 168)
             ),
         ),
         (
             "20".to_string(),
-            "St. Fabian, Martyr \nSt. Sebastian, Martyr".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Fabian, Martyr".truecolor(243, 139, 168),
+                "St. Sebastian, Martyr".truecolor(243, 139, 168),
+            ),
         ),
-        ("21".to_string(), "St. Agnes, Martyr".to_string()),
+        (
+            "21".to_string(),
+            format!("{}", "St. Agnes, Martyr".truecolor(243, 139, 168)),
+        ),
         (
             "22".to_string(),
-            "St. Anastasius, Martyr \nSt. Vincent of Saragozza, Martyr".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Anastasius, Martyr".truecolor(243, 139, 168),
+                "St. Vincent of Saragozza, Martyr".truecolor(243, 139, 168)
+            ),
         ),
         (
             "23".to_string(),
-            "St. Raymond of Pennafort \nSt. Emerentiana, Martyr".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Raymond of Pennafort",
+                "St. Emerentiana, Martyr".truecolor(243, 139, 168)
+            ),
         ),
-        ("24".to_string(), "St. Tomothy, Martyr".to_string()),
+        (
+            "24".to_string(),
+            format!("{}", "St. Tomothy, Martyr".truecolor(243, 139, 168)),
+        ),
         ("25".to_string(), "Coversion of St. Paul".to_string()),
         (
             "26".to_string(),
-            "St. Paula \nSt. Polycarp, Martyr".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Paula",
+                "St. Polycarp, Martyr".truecolor(243, 139, 168)
+            ),
         ),
         ("27".to_string(), "St. John Chrysostom".to_string()),
         (
             "28".to_string(),
-            "St. Peter Nolasco \nSt. Thomas Aquinas \nSt. Agnes, Martyr,".to_string(),
+            format!(
+                "{}\n{}\n{}",
+                "St.Thomas Aquinas".bold(),
+                "St. Peter Nolasco",
+                "St. Agnes, Martyr".truecolor(243, 139, 168)
+            ),
         ),
         ("29".to_string(), "St. Francis de Sales".to_string()),
         (
             "30".to_string(),
-            "St. Martina, Martyr \nSt. Mutien".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Martina, Martyr".truecolor(243, 139, 168),
+                "St. Mutien"
+            ),
         ),
         ("31".to_string(), "St. John Bosco".to_string()),
     ]);
