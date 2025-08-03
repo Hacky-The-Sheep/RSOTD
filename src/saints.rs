@@ -211,6 +211,97 @@ pub fn months() -> HashMap<String, HashMap<String, String>> {
     ]);
     months.insert("march".to_string(), march);
 
+    // April
+    let april: HashMap<String, String> = HashMap::from([
+        ("01".to_string(), "St. Hugh of Grenoble".to_string()),
+        (
+            "02".to_string(),
+            "St. Francis of Paola \nSt. Mary of Eygpt".to_string(),
+        ),
+        ("03".to_string(), "St. Richard of Chichester".to_string()),
+        ("04".to_string(), "St. Isadore of Seville".to_string()),
+        (
+            "05".to_string(),
+            "St. Irene \nSt. Vincent Ferrer".to_string(),
+        ),
+        ("06".to_string(), "St. Juliana of Cornillon".to_string()),
+        ("07".to_string(), "Bl. Herman Joseph".to_string()),
+        ("08".to_string(), "St. Julie Billiart".to_string()),
+        ("09".to_string(), "St. Mary of Cleophas".to_string()),
+        ("10".to_string(), "St. Ezechiel".to_string()),
+        (
+            "11".to_string(),
+            "St. Leo the Great \nSt. Gemma Galgani".to_string(),
+        ),
+        ("12".to_string(), "St. Sabbas".to_string()),
+        (
+            "13".to_string(),
+            format!(
+                "{}\n{}\n{}",
+                "St. Hermenegild, Martyr".truecolor(243, 139, 168),
+                "Bl. Ida",
+                "Bl. Margaret of Castello"
+            ),
+        ),
+        (
+            "14".to_string(),
+            format!(
+                "{}\n{}",
+                "St. Justin, Martyr".truecolor(243, 139, 168),
+                "Sts. Valerian,  Tiburtius, and Maximus, Martyrs".truecolor(243, 139, 168)
+            ),
+        ),
+        ("15".to_string(), "Sts. Basilissa and Anastasia".to_string()),
+        ("16".to_string(), "St. Benedict Joseph Labre".to_string()),
+        (
+            "17".to_string(),
+            format!("{}", "Pope St. Anicetus, Martyr".truecolor(243, 139, 168)),
+        ),
+        ("18".to_string(), "St. Apollonius".to_string()),
+        (
+            "19".to_string(),
+            "Pope St. Leo IX \nBl. James Duckett".to_string(),
+        ),
+        ("20".to_string(), "St. Agnes of Montepulciano".to_string()),
+        (
+            "21".to_string(),
+            "Solemnity of St. Joseph \nSt. Anselm".to_string(),
+        ),
+        ("21".to_string(), "St. Conrad".to_string()),
+        (
+            "22".to_string(),
+            "Pope St. Caius, Martyr \nPope St. Soter, Martyr".to_string(),
+        ),
+        ("23".to_string(), "St. George, Martyr".to_string()),
+        (
+            "24".to_string(),
+            "St. Euphrasia \nSt. Fidelis Sigmaringen, Martyr".to_string(),
+        ),
+        ("25".to_string(), "St. Mark the Evangelist".to_string()),
+        (
+            "26".to_string(),
+            format!(
+                "{}\n{}",
+                "Pope St. Cletus, Martyr".truecolor(243, 139, 168).bold(),
+                "Pope St. Marcellus, Martyr".truecolor(243, 139, 168).bold(),
+            ),
+        ),
+        (
+            "27".to_string(),
+            "St. Zita \nSt. Peter Canisius".to_string(),
+        ),
+        (
+            "28".to_string(),
+            "St. Paul of the Cross \nSt. Louis Marie de Montfort".to_string(),
+        ),
+        (
+            "29".to_string(),
+            "St. Peter Verona, Martyr \nSt. Hugh of Cluny".to_string(),
+        ),
+        ("30".to_string(), "St. Catherine of Siena".to_string()),
+    ]);
+    months.insert("april".to_string(), april);
+
     // JUNE
     let june: HashMap<String, String> = HashMap::from([
         ("01".to_string(), "St. Angela Merici".to_string()),
